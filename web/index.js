@@ -76,6 +76,6 @@ app.use("/*", shopify.ensureInstalledOnShop(), async (_req, res, _next) => {
     .send(readFileSync(join(STATIC_PATH, "index.html")));
 });
 
-app.listen(PORT, () => {
-  console.log("app listening on port", PORT);
+app.listen(80, () => {
+  console.log("app listening on port", 80);
 });
