@@ -1,0 +1,25 @@
+
+        <script
+            src="https://d3s92n200bfyj8.cloudfront.net/releases/dev/R1.2/bot/dist/umd/plugins/kore-retail-assist-plugin.js" async></script>
+        <script
+            src="https://d3s92n200bfyj8.cloudfront.net/releases/dev/R1.2/bot/dist/umd/plugins/webapi-stt-plugin-umd.js" async></script>
+        <script
+            src="https://d3s92n200bfyj8.cloudfront.net/releases/dev/R1.2/bot/dist/umd/kore-web-sdk-umd-chat.min.js" async></script>
+        <script>
+            var chatConfig = KoreChatSDK.chatConfig;
+            var chatWindow = KoreChatSDK.chatWindow;
+            var RetailAssistTemplatePlugin = KoreRetailAssistSDK.RetailAssistTemplatePlugin
+            var WebKitSTT = WebKitSTTPluginSDK.WebKitSTT;
+            var chatWindowInstance = new chatWindow();
+            chatWindowInstance.installPlugin(new WebKitSTT({ lang: 'en-US' }));
+            chatWindowInstance.installPlugin(new RetailAssistTemplatePlugin());
+            chatWindowInstance.show(chatConfig);
+        </script>
+
+{% schema %}
+{
+  "name": "Kore Chatbot",
+  "target": "body",
+  "settings": []
+}
+{% endschema %}

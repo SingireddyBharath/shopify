@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Kore.ai Chatbot"
+client_id = "2b51b9593f2293cc020be63e8e3d3175"
+application_url = "https://mounting-hydraulic-performances-fx.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://mounting-hydraulic-performances-fx.trycloudflare.com/auth/callback",
+  "https://mounting-hydraulic-performances-fx.trycloudflare.com/auth/shopify/callback",
+  "https://mounting-hydraulic-performances-fx.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "sourabhs-demo-store.myshopify.com"

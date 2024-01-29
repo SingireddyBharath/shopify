@@ -1,0 +1,33 @@
+{
+  "NotFound": {
+    "description": "Check the URL and try again, or use the search bar to find what you need.",
+    "heading": "There is no page at this address"
+  },
+  "kore": {
+    "welcome": "Hi ",
+    "title" : "Congratulations! 🎉",
+    "description": " The installation of the Kore Retail Assist app is complete. You'll now find the Kore Web widget active on your store. This widget empowers customers to interact with the bot, receiving automated responses, and facilitates connections with agents via chat for a more personalized and responsive experience.",
+    "errorReceivingSession": "Some error occured, please try again after some time.",
+    "setConnection": "Your Shopify store has been successfully connected with Kore.ai .",
+    "howItWorks1": "Following the authentication of the Shopify store, the Kore Team will proceed to configure the Retail Assist Solution to seamlessly align with the specific needs and products of the store.",
+    "howItWorks2": "As the integration progresses, the chatbot will be programmed to handle a range of customer queries, from product inquiries to order tracking, enhancing the overall shopping experience.",
+    "howItWorks3": "Once the integration is successfully completed, the chatbot will start responding to the customer queries via automated responses and transfer to agent on need basis.",
+    "howItWorks4": "Ongoing monitoring and updates will be implemented to adapt the chatbot to changing customer needs and ensure that Shopify store continues to benefit from the Retail Assist Solution seamlessly.",
+    "keyFeatures1": "Product Search",
+    "keyFeatures2": "Place an Order",
+    "keyFeatures3": "Order Tracking",
+    "keyFeatures4": "Reschedule",
+    "keyFeatures5": "Cancel an Order",
+    "keyFeatures6": "Cart Management",
+    "keyFeatures7": "Order History",
+    "keyFeatures8": "FAQs",
+    "keyFeatures9": "Agent Transfer",
+    "comingNext1" : "Introducing additional features geared towards enhanced integrations, extending support to channels like IVR, WhatsApp, Facebook, and Google Business Manager.",
+    "comingNext2" : "The goal is to facilitate a seamless shopping experience for customers, allowing them to interact with and make purchases through various social platforms.",
+    "comingNext3" : "Emphasising the importance of cross-channel consistency, the new features aim to ensure a unified and user-friendly shopping journey for customers across different platforms.",
+    "comingNext4" : "Special attention will be given to enabling order tracking functionalities, providing customers with real-time updates and enhancing overall satisfaction.",
+    "comingNext5" : "This expansion aligns with our commitment to offering a versatile and interconnected shopping experience, promoting accessibility and convenience for your customers.",
+    "deleteConnection": "Your Shopify store has been disconnected successfully.",
+    "someError" : "Some error occured please try again after some time."
+  }
+}

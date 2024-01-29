@@ -1,0 +1,28 @@
+{
+  "name": "kore-retail-assist",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "set SHOPIFY_API_KEY=4bc1a0dedfa3a11f587eba6ad0d361d6 && shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.52.0",
+    "@shopify/cli": "3.52.0",
+    "@shopify/shopify-app-session-storage-sqlite": "^2.0.2",
+    "axios": "^1.6.3",
+    "dotenv": "^16.4.0"
+  },
+  "author": "sourabh",
+  "private": true,
+  "workspaces": [
+    "extensions/*",
+    "web",
+    "web/frontend"
+  ]
+}

@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Kore Retail Assist"
+client_id = "c75d8062f03e8ae8498b37196b9cb1a8"
+application_url = "https://edition-olympus-ellen-incidence.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://edition-olympus-ellen-incidence.trycloudflare.com/auth/callback",
+  "https://edition-olympus-ellen-incidence.trycloudflare.com/auth/shopify/callback",
+  "https://edition-olympus-ellen-incidence.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "korebot.myshopify.com"

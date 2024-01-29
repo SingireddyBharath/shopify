@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Kore Retail Assist"
+client_id = "14ac23465bc962885cca45f52636b4ac"
+application_url = "https://iso-marathon-seeker-virginia.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_customers,read_customers,write_products,read_products,write_orders,read_orders,read_product_listings,read_assigned_fulfillment_orders,write_assigned_fulfillment_orders,read_order_edits,write_order_edits,read_returns,write_returns,read_cart_transforms,write_cart_transforms,unauthenticated_read_checkouts,unauthenticated_write_checkouts,unauthenticated_read_customers,unauthenticated_write_customers,unauthenticated_read_customer_tags,unauthenticated_read_product_inventory,unauthenticated_read_product_listings,unauthenticated_read_product_pickup_locations,unauthenticated_read_product_tags,unauthenticated_read_selling_plans"
+
+[auth]
+redirect_urls = [
+  "https://iso-marathon-seeker-virginia.trycloudflare.com/auth/callback",
+  "https://iso-marathon-seeker-virginia.trycloudflare.com/auth/shopify/callback",
+  "https://iso-marathon-seeker-virginia.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "korebot.myshopify.com"
